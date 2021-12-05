@@ -1,0 +1,15 @@
+.btn-info:hover {
+    background-color: rgb(232, 214, 255);
+}
+body {
+    font-family: Calibri;
+}
+canvas {
+    animation-name: colorAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorAnimation {
+    from{box-shadow: 1px 1px 38px rgb(172, 217, 255);}
+    to{box-shadow: 1px 1px 38px rgb(216, 187, 255);}
+}
